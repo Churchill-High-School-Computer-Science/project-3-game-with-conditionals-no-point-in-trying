@@ -26,6 +26,14 @@ public class Set {
     static String[] shapes = {"oval","squiggle","diamond"};
     static int[] number = {1,2,3};
     static String[] shadings ={"solid","striped","empty"};
+
+    static List<Card> tableCards = new ArrayList<>();
+    
+    public static List<Card> generateDeck(){
+        List<Card>deck = new ArrayList<>();
+        
+    }
+    
     
     
 }
