@@ -10,7 +10,7 @@ public class WordleGame{
         String correctWord = wordList[rand.nextInt(wordList.length)];
         Scanner input = new Scanner(System.in);
         int attempts = 6;
-
+//test
         System.out.println("Welcom to my WoRlDlE where evey guess feels like a missed change and evey letter btinh you closer to a loss There is no winning here just endless attempts one falling shot of. (why do I try)");
 
         while (attempts > 0) {
